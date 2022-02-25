@@ -1,0 +1,157 @@
+body{
+  background-color: #494949;
+  font-family: sans-serif;
+}
+.wrapper{
+  /* list-style: inline; */
+  /* float: left; */
+  position: fixed;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 60%;
+}
+.head-line{
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size:35px;
+}
+.socialBox{
+  padding: 20px 0px ;
+  margin:10px;
+  position: relative;
+  border: 5px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  width: 230px;
+  height: 183px;
+  border-radius: 10px;
+
+}
+.socialBox span{
+  padding-top: 30px;
+  display: block;
+  font-size: 20px;
+  text-align:center;
+  color: grey;
+}
+.mark{
+  color: white;
+  position: absolute;
+  top: 0;
+  border: 25px solid;
+  border-color: rgb(252, 250, 250) transparent transparent rgb(255, 255, 255);
+}
+.mark i{
+  color: white;
+  position: absolute;
+  top: -18px;
+  left: -15px;
+  font-size: 20px;
+}
+.fa-brands{
+  text-align: center;
+  display: block;
+  color: gray;
+  font-size:50px;
+  padding-top:20px;
+}
+
+
+.box{
+  display: none;
+
+}
+li{
+  list-style: none;
+  float: left;
+  
+}
+
+.checkBox .box:checked ~ .socialBox.facebook{
+  border: 5px solid #006765;
+}
+.checkBox .box:checked ~ .facebook .mark{
+  border-color: #006765 transparent transparent #006765;   
+}
+.checkBox .box:checked ~ .facebook .fa-brands{
+  color:#006765;
+}
+
+/* twitter */
+.checkBox .box:checked ~ .socialBox.twitter{
+  border: 5px solid rgb(5, 149, 245);
+}
+.checkBox .box:checked ~ .twitter .mark{
+  border-color: rgb(5, 149, 245) transparent transparent rgb(5, 149, 245);   
+}
+.checkBox .box:checked ~ .twitter .fa-brands{
+  color:rgb(5, 149, 245);
+}
+
+/* //Instagram */
+.checkBox .box:checked ~ .socialBox.instagram{
+  border: 5px solid #E13F5E;
+}
+.checkBox .box:checked ~ .instagram .mark{
+  border-color: #E13F5E transparent transparent #E13F5E;   
+}
+.checkBox .box:checked ~ .instagram .fa-brands{
+  color:#E13F5E;
+}
+/* Linkedin */
+.checkBox .box:checked ~ .socialBox.Linkedin{
+  border: 5px solid rgb(5, 149, 245);
+}
+.checkBox .box:checked ~ .Linkedin .mark{
+  border-color: #006765 transparent transparent #006765;    
+}
+.checkBox .box:checked ~ .Linkedin .fa-brands{
+  color:rgb(5, 149, 245) ;
+}
+
+/* Whatsapp */
+.checkBox .box:checked ~ .socialBox.Whatsapp{
+  border: 5px solid #25D263;
+}
+.checkBox .box:checked ~ .Whatsapp .mark{
+  border-color: #25D263 transparent transparent #25D263;   
+}
+.checkBox .box:checked ~ .Whatsapp .fa-brands{
+  color:#25D263;
+}
+
+/* GooglePlus */
+.checkBox .box:checked ~ .socialBox.GooglePlus{
+  border: 5px solid #B8071B;
+}
+.checkBox .box:checked ~ .GooglePlus .mark{
+  border-color: #B8071B transparent transparent #B8071B;   
+}
+.checkBox .box:checked ~ .GooglePlus .fa-brands{
+  color:#B8071B;
+}
+
+/* Reddit */
+
+.checkBox .box:checked ~ .socialBox.Reddit{
+  border: 5px solid #FA5400;
+}
+.checkBox .box:checked ~ .Reddit .mark{
+  border-color: #FA5400 transparent transparent #FA5400;   
+}
+.checkBox .box:checked ~ .Reddit .fa-brands{
+  color:#FA5400;
+}
+
+/* Quora */
+.checkBox .box:checked ~ .socialBox.Quora{
+  border: 5px solid #B42922;
+}
+.checkBox .box:checked ~ .Quora .mark{
+  border-color: #B42922 transparent transparent #B42922;   
+}
+.checkBox .box:checked ~ .Quora .fa-brands{
+  color:#B42922;
+}
